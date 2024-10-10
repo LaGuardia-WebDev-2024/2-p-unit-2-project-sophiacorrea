@@ -1,26 +1,91 @@
 <!--
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[xx] Two Element Selectors
+[xx] Two ID Selectors
+[xx] Two Class Selectors
+[xxx] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a Background Image
 [ no ] Feature 2 - Include Border Radius CSS Property
-[ no ] Feature 3 - Include Horizontal Line
+[ yes] Feature 3 - Include Horizontal Line
 [ no ] Feature 4 - Embed YouTube Video
-[ no ] Feature 5 - Include Border CSS Property
+[yes] Feature 5 - Include Border CSS Property
 -->
-    
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Unit 2 Project</title>
-    </head>
-    <body>
 
-        
-    </body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Unit 2 Project</title>
+    <style>
+      .titles {
+        color: #ffdcec;
+        font-family: "Lucida Handwriting";
+      }
+      body {
+        background-color: lightblue;
+      }
+      .about-mallorca {
+        font-family: "Courier New";
+        border: 3px dotted #ffdcec;
+      }
+      img {
+        border: 5px solid #ffdcec;
+      }
+      #sobrassada {
+        border: 5px dashed #9c3b3b;
+      }
+
+      #paella {
+        border: 5px dashed #fff8dc;
+      }
+      #ensaimada{border:5px dashed #FFDAB9}
+    </style>
+  </head>
+  <body>
+    <h1 class="titles">
+      <u>Visit Mallorca</u>
+    </h1>
+    <hr size="12" color="#ffdcec" />
+    <p class="about-mallorca">
+      Mallorca is a small island in the Balearic Islands of Spain. It is
+      extremely historical with a lot of amazing architecture and crystal-clear
+      beaches. The island has two spoken languages, Spanish and Catalan. Most
+      locals are able to speak both, and children also have classes in school.
+    </p>
+    <h2 class="titles">Palma de Mallorca</h2>
+    <img src="https://iated.org/edulearn/img/17.jpg" width="400" />
+    <p class="about-mallorca">
+      The main city in Mallorca is called Palma. About 400,000 people live in
+      this city. It is home to a lot of history and shopping. It also has its
+      own beach!
+    </p>
+    <h2 class="titles">Alcúdia</h2>
+    <img
+      src="https://cdn.glitch.global/5e493546-583a-4dc9-bcab-eed3d159ae55/ee74bbe9-3453-4f14-944d-45a48e7b8e8d.image.png?v=1728490407483"
+      width="500"
+    />
+    <p class="about-mallorca">
+      Alcúdia is on the opposite side of the island of Mallorca from Palma. It
+      is less populated and is a popular vacation spot. It has a lot of nature
+      for hiking and is a popular spot for boats to dock. Alcúdia also has a
+      cathedral that dates back to 1302!
+    </p>
+    <h2 class="titles">Traditional Mallorquin Food</h2>
+    <img
+      src="https://www.celebritycruises.com/blog/content/uploads/2022/10/mallorca-food-sobrassada-1024x683.jpg"
+      width="300"
+      id="sobrassada"
+    />
+    <img
+      src="https://thatothercookingblog.com/wp-content/uploads/2016/04/IMG_7373.jpg"
+      width="300"
+      id="paella"
+    />
+    <img src="https://cdn.glitch.global/5e493546-583a-4dc9-bcab-eed3d159ae55/ddb3058c-e368-4536-b918-5013bbe89700.image.png?v=1728491551661" width="300" id="ensaimada"/>
+    <p class="about-mallorca">
+      Mallorca has a lot of great food but my favorites are sobrassada, which is a spreadable cold cut, ensaimada, which is a pastry with lard, and paella con pollo.
+    </p>
+  </body>
 </html>
